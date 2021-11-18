@@ -1,0 +1,70 @@
+* {
+    outline: solid;
+   }
+   
+   
+   
+   /* this is a comment */
+   
+   
+   body {
+     width: 1000px;
+     background-color: rgb(72, 200, 200);
+     margin: 0 auto;
+   }
+   
+   
+   header {
+     background-color: rgb(63, 119, 121);
+     height: 100px;
+   }
+   
+    h1 {
+        text-align: center;
+     color: rgb(160, 209, 81);
+     font-size: 26px;
+     margin-left: 80px;
+     margin-right: 30px;
+     margin-top: 35px;
+   }
+   
+   header a {
+     color: whitesmoke;
+   }
+   
+   nav li {
+     display: inline-block;
+     margin-right: 60px;
+     margin-top: 35px;
+   }
+   
+   nav ul {
+    list-style: none;
+    text-align: center;
+ }
+ 
+ nav ul li {
+    display: inline-block;
+ }
+   
+   #styleMain {
+     background-color: hsl(300, 24%, 80%);
+   }
+   
+   
+   main li {
+     float: left;
+     margin: 30px 30px 30px 0px;
+   }
+   
+   
+   main li:last-child {
+     margin-right: 0px;
+   }
+   
+   
+   footer {
+     height: 200px;
+     clear: both;
+     background-color: rgb(204, 196, 204);
+   }
