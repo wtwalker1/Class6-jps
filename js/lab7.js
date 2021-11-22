@@ -5,7 +5,7 @@ console.log('app.js is connected.');
 // Requirements
 // Use functions to improve the clarity and readability of your code.
 
-// 1. Wrap related steps into a single function. Be sure you are properly defining the function,
+// DONE- 1. Wrap related steps into a single function. Be sure you are properly defining the function,
 //  calling it, and getting the return value you expect.
 
 // 2.Can you see how you might use just a single <script> tag with a src attribute to access your JS,
