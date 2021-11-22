@@ -16,25 +16,36 @@ console.log('app.js is connected.');
 
 
 
-alert('Welcome to my clothing website!');
+    alert('Welcome to my clothing website!');
+    let newUser = prompt('What is your name?');
+    console.log('this is the new user', typeof(newUser));
+    let userNumber = prompt('Guess a number between one and ten');
+    console.log('this is the user number',typeof(userNumber));
+    let userNumberParsed = parseInt(userNumber);
+    console.log('parsed number', userNumberParsed);
+    //this a conditional logic to use for req. 
+    if(userNumberParsed >= 10){
+        alert('Try again too high');
+    } else {
+        alert('You entered a good number');
+    }
 
-let newUser = prompt('What is your name?');
 
-console.log('this is the new user', typeof(newUser));
+    // Lab 8
+    function runAlert() {
+        var userNumber = prompt('Guess a number between one and ten');
+        console.log('this is the user number',typeof(userNumber));
+        var userNumberParsed = parseInt(userNumber);
+        console.log('parsed number', userNumberParsed);
+    //this a conditional logic to use for req. 
+        if(userNumberParsed >= 10){
+        alert('Try again too high');
+        } else {
+        alert('You entered a good number');
+        }
+    }
+    runAlert();
 
-let userNumber = prompt('Guess a number between one and ten');
-
-console.log('this is the user number',typeof(userNumber));
-
-let userNumberParsed = parseInt(userNumber);
-console.log('parsed number', userNumberParsed);
-
-//this a conditional logic to use for req. 
-if(userNumberParsed >= 10){
-    alert('Try again too high');
-} else {
-    alert('You entered a good number');
-}
 
 
 
