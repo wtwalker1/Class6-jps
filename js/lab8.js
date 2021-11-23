@@ -77,7 +77,6 @@ console.table(typeof(userInput));
 
 for(let i = 0; i < userInputParsed; i++){
     let listImage = document.createElement('li');
-    listImage.textContent = 'image number ${i + 1}';
     let image = document.createElement('img');
     image.setAttribute('src', 'images/BUYIT.jpg');
     listImage.appendChild(image);
